@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Forest</string>
+    <string name="content">你有你的小草,我有我的森林~</string>
+    <string name="version">414特供版</string>
+    <string name="versionCode">Forest v1.0</string>
+    <string name="parseUrl">采集地址:</string>
+    <string name="download">下载至本地</string>
+    <string name="randomRec">随机推荐</string>
+    <string name="copyright">CopyRight®2018 Forest</string>
+</resources>

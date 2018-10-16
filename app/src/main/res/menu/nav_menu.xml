@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/gp1">
+        <item
+            android:id="@+id/home"
+            android:title="首页"
+            android:icon="@drawable/home"/>
+        <item
+            android:id="@+id/collection"
+            android:icon="@drawable/collect_menu"
+            android:title="收藏夹"/>
+    </group>
+    <group
+        android:id="@+id/gp2"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/wm"
+            android:title="无码中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/qj"
+            android:title="强奸中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/jr"
+            android:title="巨乳中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/ll"
+            android:title="乱伦中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/zf"
+            android:title="制服中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/rq"
+            android:title="人妻中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/tj"
+            android:title="调教中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/cg"
+            android:title="出轨中文"
+            android:icon="@drawable/play"/>
+        <item
+            android:id="@+id/xsp"
+            android:title="女优小视频"
+            android:icon="@drawable/play"/>
+    </group>
+    <group android:id="@+id/gp3">
+        <item
+            android:id="@+id/setting"
+            android:title="软件设置"
+            android:icon="@drawable/setting"/>
+        <item
+            android:id="@+id/about"
+            android:title="关于"
+            android:icon="@drawable/about"/>
+    </group>
+</menu>

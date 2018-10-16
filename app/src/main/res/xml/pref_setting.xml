@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="网络相关">
+        <SwitchPreference
+            android:key="saveFlow"
+            android:defaultValue="false"
+            android:title="节流模式"
+            android:summary="开启后将不加载图片"/>
+        <SwitchPreference
+            android:key="enableSearch"
+            android:defaultValue="false"
+            android:title="启用搜索功能"
+            android:summary="想搜什么就搜什么"/>
+        <Preference
+            android:key="initSearchList"
+            android:enabled="false"
+            android:title="初始化搜索数据库"
+            android:summary="动态获取源站数据库(加快搜索时间)"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="下载设置">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="enableDownload"
+            android:title="启用下载功能"/>
+        <EditTextPreference
+            android:defaultValue="/sdcard/ForestDownload/"
+            android:key="downloadPath"
+            android:selectAllOnFocus="true"
+            android:enabled="false"
+            android:singleLine="true"
+            android:title="自定义下载路径" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="其余选项">
+        <SwitchPreference
+            android:key="offRemind"
+            android:defaultValue="false"
+            android:title="关闭进入提醒"/>
+        <Preference
+            android:key="vip"
+            android:title="开通会员"
+            android:summary="开通会员体验强劲巨无敌功能"/>
+        <Preference
+            android:key="about"
+            android:title="关于"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>
